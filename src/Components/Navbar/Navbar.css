@@ -4,7 +4,8 @@
     justify-content: space-around;
     padding: 15px;
     height: 80px;
-    box-shadow: 0 1px 3px -2px black;
+    /* box-shadow: 0 1px 3px -2px black; */
+   
 }
 
 .nav-logo{
@@ -12,8 +13,10 @@
   gap: 10px;
 }
 
+
 img{
     border-radius: 40%;
+    height: 80px;
 }
 
 .nav-logo p{
@@ -27,7 +30,6 @@ img{
     align-items: center;
     list-style: none;
     gap: 50px;
-    color: white;
     font-size: 20px;
     font-weight: 500px;
 }
@@ -39,7 +41,9 @@ img{
     justify-content: center;
     gap: 3px;
     cursor: pointer;
+    
 }
+
 
 .nav-menu hr{
     border: none;
@@ -47,11 +51,17 @@ img{
     height: 3px;
     border-radius: 10px;
     background: violet;
+    
 }
 
+.nav-login-cart{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
 
 .nav-login-cart button{
-    align-self: center;
+  
     width: 150px;
     height: 60px;
     outline:none;
@@ -62,6 +72,7 @@ img{
     font-size: 25px;
     font-weight: 500;
     cursor: pointer;
+    
 }
 
 .nav-login-cart button:active{
@@ -74,7 +85,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -5px;
+    margin-top: -55px;
     margin-left: -40px;
     font-size: 14px;
     background: rgb(91, 39, 116);
@@ -82,8 +93,4 @@ img{
     border-radius: 6px;
 }
 
-.nav-login-cart{
-    display: flex;
-    /* align-items: center; */
-    gap: 45px;
-}
+
