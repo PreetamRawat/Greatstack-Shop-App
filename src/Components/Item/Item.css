@@ -1,5 +1,6 @@
 .item{
     width: 350px;
+    
 }
 
 .item p{
@@ -8,6 +9,8 @@
 .item-prices{
     display: flex;
     gap: 20px;
+    justify-content: center;
+   
 }
 .item-price-new{
     color: #374252;
