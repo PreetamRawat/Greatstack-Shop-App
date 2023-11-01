@@ -41,7 +41,8 @@
     cursor: pointer;
 }
 .offers-right{
-    background-color: #ff4141;
     display: flex;
-   justify-content: end;
+    justify-content: end;
+    align-items: center;    
+    padding-top: 50px;
 }
