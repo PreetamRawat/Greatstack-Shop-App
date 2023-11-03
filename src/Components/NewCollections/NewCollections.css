@@ -1,0 +1,35 @@
+
+.new-collections{
+    /* background-color: blue; */
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-collections h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.new-collections hr{
+    width: 200px;
+    height: 6px;
+    background: #171717;
+    border-radius: 10px;
+    
+}
+
+.new-collections img{
+    width: 280px;
+    height: 350px;
+}
+
+.collections{
+    text-align: center;
+    display:grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    gap: 15px 10px;
+    margin-top: 50px;
+}
