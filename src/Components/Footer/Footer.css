@@ -4,7 +4,9 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
 }
 
 .footer img{
@@ -18,17 +20,19 @@
     gap: 20px;
 }
 .footer-logo p{
-    color: #000000;
+    /* color: #000000; */
     font-size: 45px;
     font-weight: 700;
     align-items: center;
+    
 }
 .footer-links{
     display: flex;
     list-style: none;
     gap: 50px;
-    color: #252525;
+    /* color: #252525; */
     font-size: 20px;
+   
 }
 
 .footer-links li{
@@ -37,12 +41,14 @@
 .footer-social-icons{
     display: flex;
     gap: 20px;
+    
 }
 .footer-icons-container{
     padding: 10px; 
     padding-bottom: 6px;
     background: #fbfbfb;
     border: 2px solid #ebebeb ;
+    cursor: pointer;
 }
 .footer-copyright{
     /* background-color: aqua; */
@@ -52,7 +58,7 @@
     gap: 30px;
     width: 100%;
     margin-bottom: 30px;
-    color: #1a1a1a;
+    /* color: #1a1a1a; */
     font-size: 20px;
 }
 .footer-copyright hr{
