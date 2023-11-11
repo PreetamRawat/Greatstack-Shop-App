@@ -25,7 +25,7 @@
 }
 
 .nav-logo p{
-     color:white;
+     /* color:white; */
     font-size: 40px;
     align-self: center;
 }
@@ -50,7 +50,7 @@
     
 }
 li*{
-    background-color: white;
+    /* background-color: white; */
 }
 
 
@@ -77,7 +77,7 @@ li*{
     background:  violet;
     border: none;
     border-radius: 40px;
-    color: white;
+    /* color: white; */
     font-size: 25px;
     font-weight: 500;
     cursor: pointer;

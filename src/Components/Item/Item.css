@@ -1,10 +1,11 @@
 .item{
     width: 350px;
-    
+    color: black;
 }
 
 .item p{
     margin: 6 px 0px;
+    color: black;
 }
 .item-prices{
     display: flex;
@@ -18,7 +19,8 @@
     font-weight: 600;
 }
 .item-price-old{
-    counter-reset: #8c8c8c;
+    color: black;
+    /* counter-reset: #8c8c8c; */
     font-size: 18px;
     font-weight: 500;
     text-decoration: line-through;
