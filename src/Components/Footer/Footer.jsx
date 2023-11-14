@@ -1,13 +1,13 @@
 import React from "react";
 import "./Footer.css";
 import { SocialIcon } from "react-social-icons";
-import brandlogo from "../Assets/brandlogo.png";
+import logo from "../Assets/logo.png";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-logo">
-        <img src={brandlogo} alt="loading.." />
+        <img src={logo} alt="loading.." />
         <p>SHOPPER</p>
       </div>
       <ul className="footer-links">
