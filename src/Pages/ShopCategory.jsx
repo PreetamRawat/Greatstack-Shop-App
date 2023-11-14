@@ -6,12 +6,11 @@ import dropdown_icon from '../Components/Assets/dropdown_icon.png'
 
 
 const ShopCategory = (props) => {
-  const {all_collection} = useContext(ShopContext)
- console.log(props.category);
+  const {all_product} = useContext(ShopContext)
+ 
 
-  return (
+  return ( 
     <div className='shop-category'>
-    <h1>chjchhdh</h1>
       <img src={props.banner} alt=''/>
       <div className='shopcategory-indexSort'>
         <p>
@@ -23,7 +22,7 @@ const ShopCategory = (props) => {
       </div>
       <div className='shopcategory-products'>
         {
-          all_collection.map((item,i)=>{
+          all_product.map((item,i)=>{
             if (props.category===item.category){
               return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
             }

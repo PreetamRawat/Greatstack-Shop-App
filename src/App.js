@@ -6,9 +6,9 @@ import ShopCategory from './Pages/ShopCategory'
 import Product from "./Pages/Product" 
 import Cart from "./Pages/Cart" 
 import LoginSignup from "./Pages/LoginSignup"
-import banner_mens from './Components/Assets/banner_mens.png'
-import banner_women from './Components/Assets/banner_women.png'
-import banner_kids from './Components/Assets/banner_kids.png'
+import men_banner from './Components/Assets/banner_mens.png'
+import women_banner from './Components/Assets/banner_women.png'
+import kids_banner from './Components/Assets/banner_kids.png'
 import Footer from './Components/Footer/Footer';
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Shop/>} />
-          <Route path='/men' element={<ShopCategory banner={banner_mens} category="men"/>} />
-          <Route path='/women' element={<ShopCategory banner={banner_women} category="women"/>} />
-          <Route path='/kids' element={<ShopCategory banner={banner_kids} category="kids"/>} />
+          <Route path='/men' element={<ShopCategory banner={men_banner} category="men"/>} />
+          <Route path='/women' element={<ShopCategory banner={women_banner} category="women"/>} />
+          <Route path='/kids' element={<ShopCategory banner={kids_banner} category="kids"/>} />
           <Route path='/product' element={<Product/>}>
            <Route path=':productId' element={<Product/>}/>
           </Route>
