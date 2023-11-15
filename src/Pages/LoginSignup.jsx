@@ -1,11 +1,12 @@
 import React from 'react'
+import './CSS/LoginSignup.css'
 
 const LoginSignup = () => {
   return (
     <div className='loginsignup'>
       <div className='loginsignup-container'>
-        <h1>Sugn Up</h1>
-        <div className='logonsignup-fields'>
+        <h1>Sign Up</h1>
+        <div className='loginsignup-fields'>
           <input type='text' placeholder='Your name' />
           <input type='email' placeholder='Email Address' />
           <input type='password' placeholder='password'/>
