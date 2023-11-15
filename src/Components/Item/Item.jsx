@@ -15,6 +15,7 @@ const Item = (props) => {
                 ${props.old_price}
             </div>
         </div>
+        
     </div>
   )
 }
